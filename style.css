@@ -187,7 +187,7 @@ iframe {
   padding: 0.7rem 1.4rem;
   border: none;
   cursor: pointer;
-  margin-left: 1rem;
+  margin-left: 0.7rem;
 }
 
 .video-stats {
@@ -199,7 +199,7 @@ iframe {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-left: 1rem;
+  margin-left: 0.7rem;
 }
 
 .video-stats img {
