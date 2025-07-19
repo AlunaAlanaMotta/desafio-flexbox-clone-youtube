@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clone Youtube</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+      <nav id="navbar">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Shorts</a></li>
+          <li><a href="#">Inscrições</a></li>
+          <li><a href="#">Configurações</a></li>
+        </ul>
+      </nav>
+
+      <div class="logo">
+        <a href="https://www.youtube.com/"
+          ><img src="assets/logo-yt.png" alt="Logo"
+        /></a>
+      </div>
+      <div class="search-bar">
+        <input id="search" type="text" placeholder="Pesquisar" />
+        <button><img src="assets/search.png" /></button>
+      </div>
+      <div class="user-profile">
+        <img src="assets/video.png" alt="Vídeos" />
+        <img src="assets/bell.png" alt="Notificações" />
+        <img src="assets/perfil.jpeg" alt="Perfil" class="picture-perfil" />
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="video-section">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/lk5xn-l_K58?si=_XS6JhhIn4C4R5-g"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <h2>Como Integrar Backend e Frontend na Prática</h2>
+        <div class="video-info">
+          <a href="https://www.youtube.com/@diomakethechange"
+            ><img
+              src="assets/Channel Avatar.png"
+              alt="Avatar do Canal"
+              class="channel-avatar"
+          /></a>
+          <div class="channel-info">
+            <h3>DIO</h3>
+            <p>122 mil inscritos</p>
+          </div>
+
+          <button class="subscribe-button">Inscrever-se</button>
+          <div class="video-stats">
+            <button class="like-button">
+              <img src="assets/thumbs-up.png" />
+            </button>
+            <span class="like-count">1.2 mil</span>
+            <button class="dislike-button">
+              <img src="assets/thumbs-down.png" />
+            </button>
+            <span class="dislike-count">Não gostei</span>
+            <button class="share-button">
+              <img src="assets/share-2.png" />
+            </button>
+            <span class="share-count">Compartilhar</span>
+            <button class="download-button">
+              <img src="assets/download.png" />
+            </button>
+            <span class="download-count">Download</span>
+          </div>
+        </div>
+        <div class="video-description">
+          <h3>1,8 mil visualizações Transmitido há 2 dias #Santander</h3>
+          <p class="video-description text">
+            Aprenda os conceitos essenciais para conectar o backend ao frontend
+            de maneira eficiente. Entenda os principais desafios dessa
+            integração e como garantir uma comunicação fluida entre as partes de
+            um projeto web.
+          </p>
+        </div>
+      </section>
+
+      <aside class="related-videos">
+        <div class="video-item">
+          <img src="assets/assets-videos/v1.png" alt="Vídeo 1" />
+          <div class="video-text">
+            <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+            <p>DigitalInnovationOne</p>
+            <p>2,1 mil visualizações</p>
+            <p>Transmitido há 2 dias</p>
+          </div>
+        </div>
+        <div class="video-item">
+          <img src="assets/assets-videos/v2.png" alt="Vídeo 2" />
+          <div class="video-text">
+            <h3>Scrum Talks</h3>
+            <p>DigitalInnovationOne</p>
+            <p>1,6 mil visualizações</p>
+            <p>Transmitido há 3 dias</p>
+          </div>
+        </div>
+        <div class="video-item">
+          <img src="assets/assets-videos/v3.png" alt="Vídeo 3" />
+          <div class="video-text">
+            <h3>AMachine Learning Avançado - Fast Track</h3>
+            <p>DigitalInnovationOne</p>
+            <p>1,7 mil visualizações</p>
+            <p>Transmitido há 4 dias</p>
+          </div>
+        </div>
+        <div class="video-item">
+          <img src="assets/assets-videos/v4.png" alt="Vídeo 4" />
+          <div class="video-text">
+            <h3>Global Skills #2 - Project Planning</h3>
+            <p>DigitalInnovationOne</p>
+            <p>1,6 mil visualizações</p>
+            <p>Transmitido há 3 dias</p>
+          </div>
+        </div>
+        <div class="video-item">
+          <img src="assets/assets-videos/v5.png" alt="Vídeo 5" />
+          <div class="video-text">
+            <h3>Como aprender a programar Python do ZERO</h3>
+            <p>DigitalInnovationOne</p>
+            <p>711 visualizações</p>
+            <p>Transmitido há 6 dias</p>
+          </div>
+        </div>
+        <div class="video-item">
+          <img src="assets/assets-videos/v1.png" alt="Vídeo 1" />
+          <div class="video-text">
+            <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+            <p>DigitalInnovationOne</p>
+            <p>2,1 mil visualizações</p>
+            <p>Transmitido há 2 dias</p>
+          </div>
+        </div>
+        <div class="video-item">
+          <img src="assets/assets-videos/v2.png" alt="Vídeo 2" />
+          <div class="video-text">
+            <h3>Scrum Talks</h3>
+            <p>DigitalInnovationOne</p>
+            <p>1,6 mil visualizações</p>
+            <p>Transmitido há 3 dias</p>
+          </div>
+        </div>
+        <div class="video-item">
+          <img src="assets/assets-videos/v3.png" alt="Vídeo 3" />
+          <div class="video-text">
+            <h3>AMachine Learning Avançado - Fast Track</h3>
+            <p>DigitalInnovationOne</p>
+            <p>1,7 mil visualizações</p>
+            <p>Transmitido há 4 dias</p>
+          </div>
+        </div>
+        <div class="video-item">
+          <img src="assets/assets-videos/v4.png" alt="Vídeo 4" />
+          <div class="video-text">
+            <h3>Global Skills #2 - Project Planning</h3>
+            <p>DigitalInnovationOne</p>
+            <p>1,6 mil visualizações</p>
+            <p>Transmitido há 3 dias</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <p class="final-text">
+      * Este projeto foi desenvolvido como parte do desafio da DIO em parceria
+      com o Santander, com o objetivo de praticar a construção de um clone da
+      interface do YouTube utilizando HTML, CSS e conceitos de responsividade.
+    </p>
+    <footer>
+      <p>&copy; 2025 Clone Youtube. Todos os direitos reservados.</p>
+      <p>
+        Desenvolvido por
+        <a href="https://www.youtube.com/@alanamotta2249">Alana Motta</a>.
+      </p>
+    </footer>
+    <script>
+      const toggle = document.getElementById("menu-toggle");
+      const navbar = document.querySelector("#navbar ul");
+
+      toggle.addEventListener("click", () => {
+        navbar.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
